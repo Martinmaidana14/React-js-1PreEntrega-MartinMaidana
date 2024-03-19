@@ -1,5 +1,5 @@
 
-import cart from "../assets/cart.png";
+import cart from "../assets/cart1.png";
 
 
 
