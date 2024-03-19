@@ -1,0 +1,32 @@
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import './App.css';
+import { ItemListContainer } from './components/ItemListContainer';
+import { NavBar } from "./components/NavBar";
+
+
+
+function App() {
+
+  return (
+    <>
+      <NavBar />;
+      <ItemListContainer greeting="HI" />
+    </>
+  );
+}
+
+export default App;
+
+
+
+
+
+//import { Input } from './components/NavBar'
+/*
+//Definicion de componente
+const Input = () => {
+  return <input type="number" />
+};
+*/
